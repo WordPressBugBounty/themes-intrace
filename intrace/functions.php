@@ -1,22 +1,21 @@
 <?php
 /**
- * Intrace functions and definitions
+ * Theme Functions
  *
  * @author Jegstudio
  * @package intrace
- * @since 1.0.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-defined( 'INTRACE_VERSION' ) || define( 'INTRACE_VERSION', '1.1.3' );
+defined( 'INTRACE_VERSION' ) || define( 'INTRACE_VERSION', '1.2.1' );
 defined( 'INTRACE_DIR' ) || define( 'INTRACE_DIR', trailingslashit( get_template_directory() ) );
-defined( 'INTRACE_URI' ) || define( 'INTRACE_URI', trailingslashit( get_template_directory_uri() ) );
+
+defined( 'GUTENVERSE_COMPANION_REQUIRED_VERSION' ) || define( 'GUTENVERSE_COMPANION_REQUIRED_VERSION', '2.1.4' );
+defined( 'GUTENVERSE_LIBRARY_SERVER' ) || define( 'GUTENVERSE_LIBRARY_SERVER', 'https://gutenverse.com' );
 
 require get_parent_theme_file_path( 'inc/autoload.php' );
-require get_parent_theme_file_path( 'inc/helper.php' );
-require get_parent_theme_file_path( 'inc/wptt-webfont-loader.php' );
 
 Intrace\Init::instance();

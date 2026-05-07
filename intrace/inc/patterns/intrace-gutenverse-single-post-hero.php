@@ -1,0 +1,16 @@
+<?php
+/**
+ * Pattern content.
+ */
+return array(
+	'title'      => __( 'Gutenverse Single Post Hero', 'intrace' ),
+	'categories' => array( 'intrace-gutenverse' ),
+	'content'    => '<!-- wp:gutenverse/section {"gap":"no","elementId":"guten-9rsSZi","background":{"type":"default","image":{"Desktop":{"id":4,"image":"' . esc_url( trailingslashit( get_template_directory_uri() ) ) . 'assets/img/architecture-house-home-pool-ceiling-italy-599832-pxhere.com_.webp","width":1536,"height":864,"altOriginal":""}},"position":{"Desktop":"center center"},"repeat":{"Desktop":"no-repeat"},"size":{"Desktop":"cover"}},"backgroundOverlay":{"type":"default","color":{"r":3,"g":3,"b":3,"a":0.8},"image":{"Desktop":{"id":1119,"image":"' . esc_url( trailingslashit( get_template_directory_uri() ) ) . 'assets/img/line.webp"}},"position":{"Desktop":"center center"},"repeat":{"Desktop":"no-repeat"},"size":{"Desktop":"contain"}},"margin":{"Desktop":{"unit":"px","dimension":{"top":"-150"}},"Tablet":[],"Mobile":[]},"padding":{"Desktop":{"unit":"px","dimension":{"top":"260","bottom":"180","right":"0","left":"0"}},"Tablet":{"unit":"px","dimension":{"top":"220","bottom":"120","right":"10","left":"10"}},"Mobile":{"unit":"px","dimension":{"top":"200","bottom":"100","right":"10","left":"10"}}},"wrapColumn":{"Desktop":false,"Tablet":false,"Mobile":true}} -->
+<!-- wp:gutenverse/column {"width":{"Desktop":100,"Mobile":null,"Tablet":null},"elementId":"guten-vhOgUa","horizontalAlign":{"Desktop":"center","Mobile":"center","Tablet":"center"},"margin":{"Desktop":{"unit":"px","dimension":{"top":"","right":"","bottom":"","left":""}}},"padding":{"Desktop":{"unit":"px","dimension":{"top":"","right":"","bottom":"","left":""}}}} -->
+<!-- wp:gutenverse/post-title {"elementId":"guten-CPdpD1","htmlTag":"h4","alignment":{"Desktop":"center"},"typography":{"type":"variable","id":"h2-font","font":{"label":"Lato","value":"Lato","type":"google"},"size":{"Desktop":{"unit":"px","point":"42"},"Tablet":{"unit":"px","point":"34"},"Mobile":{"unit":"px","point":"24"}},"lineHeight":{"Desktop":{"unit":"em","point":"1.3"}},"spacing":{"Desktop":"0.01"},"transform":"uppercase","weight":"600"},"color":{"type":"variable","id":"gv-color-white"}} -->
+<div class="guten-element guten-post-title guten-CPdpD1"></div>
+<!-- /wp:gutenverse/post-title -->
+<!-- /wp:gutenverse/column -->
+<!-- /wp:gutenverse/section -->',
+	'is_sync' => false,
+);

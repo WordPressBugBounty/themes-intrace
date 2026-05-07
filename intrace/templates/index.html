@@ -1,38 +1,22 @@
-<!-- wp:pattern {"slug":"intrace/core-index-hero-2"} /-->
+<!-- wp:pattern {"slug":"intrace/intrace-core-index-hero-2"} /-->
 
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"120px","bottom":"100px"}}},"layout":{"contentSize":"1140px"}} -->
-<div class="wp-block-group" style="padding-top:120px;padding-bottom:100px"><!-- wp:query {"queryId":24,"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"displayLayout":{"type":"flex","columns":3}} -->
-<div class="wp-block-query"><!-- wp:post-template {"className":"startupzy-animate startupzy-move-up startupzy-delay-5"} -->
-<!-- wp:post-featured-image {"isLink":true,"align":"wide","style":{"spacing":{"margin":{"bottom":"20px"}}}} /-->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"100px","bottom":"100px","left":"10px","right":"10px"}}},"layout":{"contentSize":"1140px","type":"constrained"}} -->
+<div class="wp-block-group" style="padding-top:100px;padding-right:10px;padding-bottom:100px;padding-left:10px"><!-- wp:query {"queryId":24,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true}} -->
+<div class="wp-block-query"><!-- wp:post-template {"className":"intrace-animate intrace-move-up intrace-delay-3","layout":{"type":"grid","columnCount":3,"minimumColumnWidth":null}} -->
+<!-- wp:post-featured-image {"isLink":true,"style":{"spacing":{"margin":{"bottom":"20px"}}}} /-->
 
-<!-- wp:post-date {"style":{"typography":{"fontSize":"14px"}},"textColor":"intrace-accent"} /-->
+<!-- wp:post-date {"isLink":true,"metadata":{"bindings":{"datetime":{"source":"core/post-data","args":{"field":"date"}}}},"style":{"typography":{"fontSize":"14px","lineHeight":"1","fontStyle":"normal","fontWeight":"400","textTransform":"uppercase"},"elements":{"link":{"color":{"text":"var:preset|color|intrace-accent"}}}},"textColor":"intrace-accent","fontFamily":"heebo"} /-->
 
-<!-- wp:post-title {"isLink":true,"style":{"elements":{"link":{"color":{"text":"var:preset|color|intrace-primary"}}},"typography":{"fontStyle":"normal","fontWeight":"500","lineHeight":"1.7"}},"textColor":"third","fontSize":"heading-3"} /-->
+<!-- wp:post-title {"isLink":true,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"},"elements":{"link":{"color":{"text":"var:preset|color|intrace-primary"}}}},"textColor":"intrace-primary","fontSize":"heading-3"} /-->
 
-<!-- wp:post-excerpt {"moreText":"Read More","style":{"spacing":{"margin":{"top":"20px","bottom":"20px"}},"elements":{"link":{"color":{"text":"var:preset|color|intrace-accent"}}}},"textColor":"third"} /-->
+<!-- wp:post-excerpt {"moreText":"Read More","excerptLength":13,"style":{"elements":{"link":{"color":{"text":"var:preset|color|intrace-accent"}}},"typography":{"fontSize":"15px","fontStyle":"normal","fontWeight":"400","lineHeight":"1.7"},"spacing":{"margin":{"top":"20px","bottom":"20px"}}},"textColor":"intrace-body-text"} /-->
 <!-- /wp:post-template -->
 
 <!-- wp:spacer {"height":"20px"} -->
 <div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer --></div>
-<!-- /wp:query -->
-
-<!-- wp:query {"queryId":21,"query":{"perPage":6,"pages":0,"offset":0,"postType":"post","order":"asc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":true},"displayLayout":{"type":"flex","columns":3}} -->
-<div class="wp-block-query"><!-- wp:post-template -->
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"30px","right":"30px","bottom":"30px","left":"30px"}}},"backgroundColor":"white","className":"is-style-customboxshadow","layout":{"inherit":false}} -->
-<div class="wp-block-group is-style-customboxshadow has-white-background-color has-background" style="padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px"><!-- wp:post-title {"isLink":true,"style":{"elements":{"link":{"color":{"text":"var:preset|color|intrace-primary"}}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"third","fontSize":"heading-3"} /-->
-
-<!-- wp:post-excerpt {"moreText":"Read More","style":{"elements":{"link":{"color":{"text":"var:preset|color|intrace-accent"}}}},"textColor":"third"} /-->
-
-<!-- wp:post-date {"textColor":"third"} /--></div>
-<!-- /wp:group -->
-<!-- /wp:post-template -->
-
-<!-- wp:spacer {"height":"40px"} -->
-<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:query-pagination {"paginationArrow":"arrow","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"intrace-accent","layout":{"type":"flex","justifyContent":"center"}} -->
+<!-- wp:query-pagination {"paginationArrow":"arrow","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"intrace-primary","layout":{"type":"flex","justifyContent":"center"}} -->
 <!-- wp:query-pagination-previous /-->
 
 <!-- wp:query-pagination-numbers /-->
@@ -42,15 +26,15 @@
 <!-- /wp:query --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"50px","bottom":"50px"}}},"backgroundColor":"intrace-primary","layout":{"contentSize":"1140px"}} -->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"50px","bottom":"50px"}}},"backgroundColor":"intrace-primary","layout":{"contentSize":"1140px","type":"constrained"}} -->
 <div class="wp-block-group has-intrace-primary-background-color has-background" style="padding-top:50px;padding-bottom:50px"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center","width":"66.66%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:66.66%"><!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"white","fontSize":"heading-2"} -->
-<h2 class="has-white-color has-text-color has-heading-2-font-size" style="font-style:normal;font-weight:600">Ready To Start New Project With Intrace?</h2>
+<h2 class="wp-block-heading has-white-color has-text-color has-heading-2-font-size" style="font-style:normal;font-weight:600">Ready To Start New Project With Intrace?</h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"300"},"spacing":{"padding":{"right":"150px"}}},"textColor":"intrace-body-text-2","fontSize":"heading-6"} -->
-<p class="has-intrace-body-text-2-color has-text-color has-heading-6-font-size" style="font-style:normal;font-weight:300;padding-right:150px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"300","lineHeight":1.6},"spacing":{"padding":{"right":"150px"}}},"textColor":"intrace-body-text-2","fontSize":"heading-6","fontFamily":"heebo"} -->
+<p class="has-intrace-body-text-2-color has-text-color has-heebo-font-family has-heading-6-font-size" style="padding-right:150px;font-style:normal;font-weight:300;line-height:1.6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -58,8 +42,8 @@
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:33.33%"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:buttons {"className":"intrace-animate intrace-move-left intrace-delay-7","layout":{"type":"flex","justifyContent":"right"}} -->
-<div class="wp-block-buttons intrace-animate intrace-move-left intrace-delay-7"><!-- wp:button {"style":{"spacing":{"padding":{"top":"14px","bottom":"14px","left":"35px","right":"35px"}},"typography":{"fontSize":"14px"}},"className":"is-style-custombuttonborder"} -->
-<div class="wp-block-button has-custom-font-size is-style-custombuttonborder" style="font-size:14px"><a class="wp-block-button__link" href="#" style="padding-top:14px;padding-right:35px;padding-bottom:14px;padding-left:35px">Contact Us</a></div>
+<div class="wp-block-buttons intrace-animate intrace-move-left intrace-delay-7"><!-- wp:button {"className":"is-style-custombuttonborder","style":{"spacing":{"padding":{"top":"14px","bottom":"14px","left":"35px","right":"35px"}},"typography":{"fontSize":"14px","fontStyle":"normal","fontWeight":"400"}},"fontFamily":"heebo"} -->
+<div class="wp-block-button is-style-custombuttonborder"><a class="wp-block-button__link has-heebo-font-family has-custom-font-size wp-element-button" href="#" style="padding-top:14px;padding-right:35px;padding-bottom:14px;padding-left:35px;font-size:14px;font-style:normal;font-weight:400">Contact Us</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column --></div>
@@ -68,4 +52,4 @@
 <!-- /wp:columns --></div>
 <!-- /wp:group -->
 
-<!-- wp:template-part {"slug":"footer"} /-->
+<!-- wp:template-part {"slug":"footer","area":"footer"} /-->
